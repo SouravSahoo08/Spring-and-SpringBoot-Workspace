@@ -7,9 +7,7 @@
 </Head>
 
 <body>
-	<!-- 	<form action="showForm">
-		<input type="submit"/>
-	</form> -->
+	
 
 	<h2>Main menu form</h2>
 	<hr>
