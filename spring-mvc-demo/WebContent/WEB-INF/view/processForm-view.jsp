@@ -15,6 +15,10 @@
 
 	<!-- data from parameter -->
 	You have typed : ${param.inputField}
+	<br>
+	<br>
+	<!-- data from model -->
+	Entered data (Fetched from model) : ${message}
 
 </body>
 
