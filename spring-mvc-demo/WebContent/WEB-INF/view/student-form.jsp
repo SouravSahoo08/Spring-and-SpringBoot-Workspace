@@ -18,6 +18,19 @@
 		Last Name : <form:input path="lastName" />
 		<br>
 		<br>
+		<!-- hardcoded -->
+		Select Country <form:select path="country">
+			<form:option value="Brazil" label="Brazil" />
+			<form:option value="India" label="India" />
+		</form:select>
+		
+		<!-- from Student class -->
+		 Select Country <form:select path="country">
+			<form:options items="${student.countryOptions}"/> 
+		 </form:select>
+				
+		<br>
+		<br>
 		<input type="submit" value="Submit" />
 
 	</form:form>
