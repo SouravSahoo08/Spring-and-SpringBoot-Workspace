@@ -18,6 +18,9 @@
 	<br>
 	<br>
 	<a href="studentSection/showForm">Student form menu</a>
+	<br>
+	<br>
+	<a href="customerSection/showForm">Customer form menu</a>
 </body>
 
 </html>

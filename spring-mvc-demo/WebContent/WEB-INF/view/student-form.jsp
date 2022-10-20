@@ -19,10 +19,10 @@
 		<br>
 		<br>
 		<!-- hardcoded -->
-		Select Country <form:select path="country">
+		<!-- Select Country <form:select path="country">
 			<form:option value="Brazil" label="Brazil" />
 			<form:option value="India" label="India" />
-		</form:select>
+		</form:select>  -->
 		
 		<!-- from Student class -->
 		 Select Country <form:select path="country">

@@ -80,5 +80,12 @@
 	<classpathentry kind="lib" path="/Spring_Workspace_Project/lib/spring-websocket-5.3.9-javadoc.jar"/>
 	<classpathentry kind="lib" path="/Spring_Workspace_Project/lib/spring-websocket-5.3.9-sources.jar"/>
 	<classpathentry kind="lib" path="/Spring_Workspace_Project/lib/spring-websocket-5.3.9.jar"/>
+	<classpathentry kind="lib" path="C:/Users/jacky/Downloads/hibernate-validator-6.2.4.Final/dist/hibernate-validator-6.2.4.Final.jar"/>
+	<classpathentry kind="lib" path="C:/Users/jacky/Downloads/hibernate-validator-6.2.4.Final/dist/hibernate-validator-annotation-processor-6.2.4.Final.jar"/>
+	<classpathentry kind="lib" path="C:/Users/jacky/Downloads/hibernate-validator-6.2.4.Final/dist/hibernate-validator-cdi-6.2.4.Final.jar"/>
+	<classpathentry kind="lib" path="C:/Users/jacky/Downloads/hibernate-validator-6.2.4.Final/dist/lib/required/classmate-1.5.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/jacky/Downloads/hibernate-validator-6.2.4.Final/dist/lib/required/jakarta.el-3.0.3.jar"/>
+	<classpathentry kind="lib" path="C:/Users/jacky/Downloads/hibernate-validator-6.2.4.Final/dist/lib/required/jakarta.validation-api-2.0.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/jacky/Downloads/hibernate-validator-6.2.4.Final/dist/lib/required/jboss-logging-3.4.1.Final.jar"/>
 	<classpathentry kind="output" path="build/classes"/>
 </classpath>
