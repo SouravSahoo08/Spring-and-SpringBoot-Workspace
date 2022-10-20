@@ -16,8 +16,9 @@ import org.springframework.web.bind.annotation.RequestMapping;
 public class CustomerController {
 
 	/**
-	 * initBinder preprocesses each web request to controller 
-	 * and trims leading and trailing whitespaces form the entry 
+	 * initBinder preprocesses each web request to controller and trims leading and
+	 * trailing whitespaces form the entry
+	 * 
 	 * @param dataBinder
 	 */
 	@InitBinder
@@ -25,7 +26,7 @@ public class CustomerController {
 		StringTrimmerEditor stringTrimmerEditor = new StringTrimmerEditor(true);
 		dataBinder.registerCustomEditor(String.class, stringTrimmerEditor);
 	}
-	
+
 	@RequestMapping("/showForm")
 	public String showform(Model model) {
 		model.addAttribute("customer", new Customer());

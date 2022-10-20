@@ -9,7 +9,10 @@
 <body>
 
 	<!-- Fetching data from student model attribute -->
-	The Customer entered data : ${customer.firstName} ${customer.lastName}
+	Customer name : ${customer.firstName} ${customer.lastName}
+	<br>
+	<br>
+	Free passes : ${customer.freePasses}
 
 </body>
 
