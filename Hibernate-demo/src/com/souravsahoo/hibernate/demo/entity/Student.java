@@ -19,15 +19,19 @@ public class Student {
 	@Column(name = "last_name")
 	private String lastName;
 
+	@Column(name = "email")
+	private String email;
+
 	public Student() {
 
 	}
 
-	public Student(int id, String firstName, String lastName) {
+	public Student(int id, String firstName, String lastName, String email) {
 		super();
 		this.id = id;
 		this.firstName = firstName;
 		this.lastName = lastName;
+		this.email = email;
 	}
 
 	public int getId() {
@@ -54,9 +58,17 @@ public class Student {
 		this.lastName = lastName;
 	}
 
+	public String getEmail() {
+		return email;
+	}
+
+	public void setEmail(String email) {
+		this.email = email;
+	}
+
 	@Override
 	public String toString() {
-		return "Student [id=" + id + ", firstName=" + firstName + ", lastName=" + lastName + "]";
+		return "Student [id=" + id + ", firstName=" + firstName + ", lastName=" + lastName + ", email=" + email + "]";
 	}
 
 }
