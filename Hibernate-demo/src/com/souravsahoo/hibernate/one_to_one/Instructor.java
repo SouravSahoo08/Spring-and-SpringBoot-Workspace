@@ -1,4 +1,4 @@
-package com.souravsahoo.hibernate.mapping;
+package com.souravsahoo.hibernate.one_to_one;
 
 import javax.persistence.CascadeType;
 import javax.persistence.Column;
